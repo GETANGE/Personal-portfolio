@@ -200,7 +200,7 @@ span{
 }
 
 /*-----Applying media queries -----*/
-@media (max-width: 468px) {
+@media (max-width: 468px){
     .home-content{
         width: 100%;
         display: flex;
