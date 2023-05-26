@@ -198,3 +198,41 @@ span{
     font-size: 7rem;
     color: var(--main-color);
 }
+
+/*-----Applying media queries -----*/
+@media (max-width: 468px) {
+    .home-content{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .navbar{
+        display: none;
+    }
+    #menu-icon{
+        display: block;
+    }
+    .btn{
+        width: 130px;
+        height: 50px;
+    }
+    .header{
+        background-color: var(--second-bg-color);
+        box-shadow: .3 black 0px 0px;
+    }
+    #download{
+        display: none;
+    }
+    .about{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .about-content p{
+        font-size: 1.6rem;
+        margin: 2rem;
+        width: 100%;
+    }
+    .about-img{
+        display: none;
+    }
+}
