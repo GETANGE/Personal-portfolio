@@ -14,6 +14,7 @@
     --second-bg-color:#323946;
     --text-color:white;
     --main-color:yellow;
+    --main-skill:aqua;
 }
 html{
     font-size: 62.5%;
@@ -198,7 +199,48 @@ span{
     font-size: 7rem;
     color: var(--main-color);
 }
+.home1{
+    background: var(--second-bg-color);
+}
+.skill-container{
+    width: 50px;
+    height: 50px;
+    background: conic-gradient(aqua, 1.6deg ,#1f242d 0deg);
+    border-radius: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skill-container::before{
+    content: "";
+    position: absolute;
+}
+.round-value{
+    background:var(--second-bg-color);
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
 
+.border{
+    border: aqua solid 1px;
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container1{
+    display: flex;
+    align-items: center;
+}
+.p{
+    margin-left: 20px;
+}
 /*-----Applying media queries -----*/
 @media (max-width: 468px){
     .home-content{
