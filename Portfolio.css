@@ -241,6 +241,18 @@ span{
 .p{
     margin-left: 20px;
 }
+.sectioning {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+  }
+  
+  .section-A,
+  .section-B {
+    width: 50%;
+    margin-left: 50px;
+  }
+   
 /*-----Applying media queries -----*/
 @media (max-width: 468px){
     .home-content{
@@ -276,5 +288,13 @@ span{
     }
     .about-img{
         display: none;
+    }
+    .sectioning{
+        display: block;
+        justify-content: space-between;
+    }
+    .section-A,
+    .section-B {
+      width: 100%;
     }
 }
