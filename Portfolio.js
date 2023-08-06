@@ -34,7 +34,7 @@ function html(){
 html();
 
 function css(){
-
+    let circularProgress = document.querySelector('#circularProgress')
 }
 
 function react(){
