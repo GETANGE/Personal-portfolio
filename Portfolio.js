@@ -34,12 +34,39 @@ function html(){
 html();
 
 function css(){
-    let circularProgress = document.querySelector('#circularProgress')
+    let circularProgress2 = document.querySelector('#circularProgress2');
+    let valueProgress2 = document.querySelector('#round-value2');
+
+    let progressStartValue2=0;
+    let progressEndValue2=80;
+
+    let progress2=setInterval(function(){
+        progressStartValue2++;
+
+        valueProgress2.textContent = `${progressStartValue2}%`;
+        circularProgress2.style.background=`conic-gradient(aqua, ${progressStartValue2 *3.6}deg ,#1f242d 0deg)`
+        if(progressStartValue2==progressEndValue2){
+            clearInterval(progress2);
+        }
+    },10)
 }
+css();
 
 function react(){
+    let circularProgress3 = document.querySelector("#circularProgress3");
+    let valueProgress3 = document.querySelector("#round-value3");
 
+    let progressStartValue3 = 0;
+    let progressEndValue3 = 20;
+
+    let progress3 = setInterval(function(){
+        progressStartValue3++;
+
+        valueProgress3.textContent = `${progressStartValue3}%`;
+        circularProgress3.style.background=`conic-gradient(aqua, ${progressStartValue3 *3.6}deg ,#1f242d 0deg)`;
+        if(progressStartValue3==progressEndValue3){
+            clearInterval(progress3);
+        }
+    },10)
 }
-function mysql(){
-    
-}
+react();
