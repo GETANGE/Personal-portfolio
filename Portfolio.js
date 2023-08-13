@@ -57,7 +57,7 @@ function react(){
     let valueProgress3 = document.querySelector("#round-value3");
 
     let progressStartValue3 = 0;
-    let progressEndValue3 = 20;
+    let progressEndValue3 = 60;
 
     let progress3 = setInterval(function(){
         progressStartValue3++;

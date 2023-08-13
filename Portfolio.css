@@ -20,6 +20,9 @@ html{
     font-size: 62.5%;
     overflow-x: hidden;
 }
+h2{
+    color: var(--main-skill);
+}
 body{
     background: var(--bg-color);
     color: var(--text-color);
@@ -53,12 +56,12 @@ section{
     transition: .3s;
 }
 .navbar2{
-    margin-left: 50px;
     position: fixed;
     justify-content: space-between;
     z-index: 100;
-    margin-left: 490px;
+    margin-left: 600px;
     text-align: center;
+    font-size: 15px;
 }
 .navbar2 a{
     display: block;
@@ -228,11 +231,20 @@ span{
 }
 
 .border{
-    border: aqua solid 1px;
-    width: 50%;
+    width: 30%;
+    height: 250%;
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
+    margin: 5px;
+    align-items: center;
+    background-color: var(--bg-color);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.section-A{
+    display: flex;
+    white-space: nowrap;
 }
 .container1{
     display: flex;
@@ -240,19 +252,25 @@ span{
 }
 .p{
     margin-left: 20px;
+    font-size: 15px;
 }
 .sectioning {
+    display: grid;
+  }
+.section-A{
     display: flex;
-    justify-content: center; 
-    align-items: center; 
-  }
-  
-  .section-A,
-  .section-B {
-    width: 50%;
-    margin-left: 50px;
-  }
-   
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    margin-top: 10%;
+}
+.section-B{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    margin-top: 10%;
+}
 /*-----Applying media queries -----*/
 @media (max-width: 468px){
     .home-content{
