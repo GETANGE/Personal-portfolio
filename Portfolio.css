@@ -273,6 +273,23 @@ span{
 }
 /*-----Applying media queries -----*/
 @media (max-width: 468px){
+    .border{
+        width: 100%;
+        margin-top: 25px;
+    }
+    .container1{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .section-A{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-B{
+        display: flex;
+        flex-direction: column;
+        margin-top: -10px;
+    }
     .home-content{
         width: 100%;
         display: flex;
