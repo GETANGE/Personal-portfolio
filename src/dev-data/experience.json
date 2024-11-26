@@ -1,0 +1,18 @@
+{
+    "experience": [
+        {
+            "title": "QA-QE Training",
+            "organization": "Teach2give",
+            "startDate": "2024-11",
+            "endDate": "2024-12",
+            "description": "Completed comprehensive training in Quality Assurance and Quality Engineering, gaining skills in testing methodologies and ensuring software quality."
+        },
+        {
+            "title": "Software Development",
+            "organization": "Teach2give",
+            "startDate": "2024-09",
+            "endDate": "2024-11",
+            "description": "Completed comprehensive training in Quality Assurance and Quality Engineering, gaining skills in testing methodologies and ensuring software quality."
+        }
+    ]
+}
