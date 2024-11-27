@@ -1,0 +1,61 @@
+{
+    "projects":[
+        {
+            "name": "Calendery",
+            "description": "A full-stack scheduling application for managing events and appointments. Built using React.js for the frontend and Node.js with Express for the backend, demonstrating user-centric design and API integration.",
+            "features": [
+                "Event and schedule management",
+                "Full-stack development with RESTful API integration",
+                "Interactive user interface using React",
+                "Backend development with Node.js and Express",
+                "Deployment-ready application"
+            ],
+            "technologies": [
+                "React.js",
+                "Node.js",
+                "Express",
+                "JavaScript",
+                "REST API"
+            ],
+            "githubLink": "https://github.com/GETANGE/calendery"  
+        },
+        {
+            "name": "Apple-Scab-App",
+            "description": "A deep learning-based application designed to detect apple scab diseases on apple leaves using image classification. The app uses a Convolutional Neural Network (CNN) model trained on a dataset of apple leaves for accurate disease detection and classification.",
+            "features": [
+                "Image classification using CNN for apple scab detection",
+                "Preprocessing of apple leaf images for better model accuracy",
+                "Real-time disease prediction and recommendations",
+                "User-friendly interface for uploading leaf images",
+                "Integration with backend API for real-time results"
+            ],
+            "technologies": [
+                "Python",
+                "TensorFlow",
+                "Keras",
+                "FastAPI",
+                "React Native"
+            ],
+            "githubLink": "https://github.com/GETANGE/Apple-Scab-App"
+        },
+        {
+            "name": "Tascade",
+            "description": "XATA-T2G is a task management app developed for the Teach2give program. It enables efficient management of tasks, assignments, and progress tracking for learning platforms. The app is built to streamline task organization and collaboration between students, teachers, and administrators.",
+            "features": [
+                "Task creation and assignment",
+                "Real-time progress tracking",
+                "User roles and permissions for students, teachers, and admins",
+                "Collaborative environment for managing learning tasks",
+                "Notifications for task deadlines and updates"
+            ],
+            "technologies": [
+                "Node.js",
+                "Express.js",
+                "PostgreSQL",
+                "REST APIs",
+                "JWT Authentication"
+            ],
+            "githubLink": "https://github.com/GETANGE/XATA-T2G"
+        }          
+    ]
+}
